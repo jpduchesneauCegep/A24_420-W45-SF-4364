@@ -19,8 +19,8 @@ Dans cette partie, vous allez installer un serveur Ubuntu selon les spécificati
 ### Étape 1 : Installation
 a - En utilisant l’ISO ubuntu-24.04-desktop-amd64.iso, créez une machine virtuelle selon les spécifications suivantes :
 
-    Dossier dans vSphere : DFC DS/VM DFC/E24_4363_420W45_ISS_JPD/
-    Nom de la VM : E24_4363_420W45_Ub_Cli_Initiale_#Matricule
+    Dossier dans vSphere : DFC DS/VM DFC/A24_4364_420W45_ISS_JPD/
+    Nom de la VM : E24_4364_Ub_Cli_Initiale_#Matricule
     Storage (disque vSphere) : ESXDFC2
     CPU : 2
     Mémoires : 4 Go
@@ -33,7 +33,7 @@ a - En utilisant l’ISO ubuntu-24.04-desktop-amd64.iso, créez une machine virt
 
 b -	Une fois la VM créée, lancez la VM et installez le client Ubuntu selon les spécifications suivantes :
 
-    Clavier : French (Canada) et/ou English (US)
+    Clavier : French (Canada) et English (US)
     Type d’installation : Minimal
     Type d'installation : Fonctions avancées et utiliser LVM pour la nouvelle installation d'Ubuntu. Acceptez le partitionnement proposé, sélectionnez le premier disque et continuez.
     Utilisateur : à votre choix, sinon user01
@@ -96,7 +96,7 @@ cat .ssh/id_ed25519.pub
 
 L’autre fichier, id\_ed25519.pub est la clé publique, elle doit être envoyée sur votre serveur distant. Par exemple, dans votre profil GitHub dans Setting -> SSH and GPG Keys -> New SSH Key. Dans ce cas vous faite une copie du contenu id\_ed25519.pub et vous le coller dans l'espace dans le champ prévu à cet effet  (key) et donnez un nom significatif à votre clé dans Title:
 
-![Git Hub SSH](images/GitHubSSH.jpg)
+![Git Hub SSH](../images/GitHubSSH.jpg)
 
 Par la suite, vous pourrez vous connecter avec le mode ssh à tous vos dépôts github.
 
