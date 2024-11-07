@@ -5,15 +5,15 @@
 
 Ce calendrier est donné à titre indicatif et peut être modifié en fonction des circonstances. Dans le cas des examens, les étudiants seront toujours avisés dans un délai raisonnable
 
-|Cours	|Date cours |Contenu|Évaluations|  Date remise exercice   
+|Cours	|Date cours |Contenu|Évaluations|  Remise exercice   
 |----------:|:-------------:|----------------|:------:|------:|
 |1|	11 nov |Présentation du plan de cours |||
 | || Présentation des concepts de bases||
-| ||Exercice 1 : Installation Ubuntu |[Ex1](Exercices/Exercice01_InstallationClient.md)|	14 novembre|
-|2|	14 nov|Installation d'un serveur Linux avec LVM et configuration réseau	 |Ex2 et Ex3| novembre|
-|3| 21 nov|Accès distant, les protocoles SSH/SCP et Git accès distant |Ex4|
-|4|	22 nov|Admin système les droits et accès |Ex4|
-|5|	26 nov|Admin système Noyau, processus et logs |Ex5|
+| ||Exercice 1 : Installation Ubuntu |[Ex1](Exercices/Exercice01_InstallationClient.md)|	14 nov|
+|2|	14 nov|Installation d'un serveur Linux avec LVM et configuration réseau	 |Ex2 et Ex3| 20 nov|
+|3| 21 nov|Accès distant, les protocoles SSH/SCP et Git accès distant |Ex4| 22 nov.
+|4|	22 nov|Admin système les droits et accès |Ex5|26 nov.
+|5|	26 nov|Admin système Noyau, processus et logs |Ex6|26 nov. 
 || |**Travail pratique 1 : Installation d'un serveur** |**Tp1**||
 |6|	28 nov|**Travail pratique 1 : Installation d'un serveur** |**Tp1**||
 |7|	3 déc|Docker	 ||
@@ -38,9 +38,8 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |26|13 mar|	Automatisation PlayBook	||
 |27|17 mar|	Automatisation – TP4 automatisation	|TP4|||
 |28|20 mar|	Automatisation – TP4 automatisation	|TP4|||
-|29|27 mar|	Automatisation – TP4 automatisation	|TP4|||
-|30|27 mar|	**Évaluation finale à caractère synthèse** | Examen final||
-|30|3 avr|	**Évaluation finale à caractère synthèse** |Examen final||
+|29|27 mar|	**Évaluation finale à caractère synthèse**|Examen final|||
+|30|3 avr|	**Évaluation finale à caractère synthèse** | Examen final||
 
 ### Récapitulatif de la pondération des évaluations sommatives
 
