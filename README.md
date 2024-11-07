@@ -1,4 +1,4 @@
-# Installation des serveur et des services 
+# Installation des serveurs et des services 
 ## A24_420-W45-SF-4364, automne 2024
 
 ### CALENDRIER

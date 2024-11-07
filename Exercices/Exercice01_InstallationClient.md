@@ -208,13 +208,13 @@ Docker sous MAC : https://docs.docker.com/desktop/install/mac-install/.
 
 Nous allons faire une configuration supplémentaire, on va installer le shell zshell, un shell plus fonctionnel que le bash.
 
-a.Vérifier les shell présent sur votre Ubuntu :
+a. Vérifier les shell présent sur votre Ubuntu :
 ```bash
 echo $SHELL
 cat /etc/shells #vous donne les shell existant sur votre poste
 ```
 	
-b.Si zsh n'est pas listé, installer le.
+b. Si zsh n'est pas listé, installer le.
 ```bash
 sudo apt install zsh -y
 
