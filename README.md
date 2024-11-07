@@ -5,13 +5,13 @@
 
 Ce calendrier est donné à titre indicatif et peut être modifié en fonction des circonstances. Dans le cas des examens, les étudiants seront toujours avisés dans un délai raisonnable
 
-|Cours	|Contenu|Évaluations| Date |
-|----------:|-------------|:------:|:------:|
+|Cours	|Contenu|Évaluations| Date cours | Date remise exercice   
+|----------:|-------------|:------:|:------:|:------:|
 |1|	Présentation du plan de cours ||11 novembre|
 | | Présentation des concepts de bases||
-| |Exercice 1 : Installation Ubuntu |[Ex1](Exercices/Exercice01_InstallationClient.md)|	
-|2|	Installation d'un serveur Linux avec LVM et configuration réseau	 |Ex2|14 novembre|
-|3|	Accès distant, les protocoles SSH/SCP et Git accès distant |Ex3|
+| |Exercice 1 : Installation Ubuntu |[Ex1](Exercices/Exercice01_InstallationClient.md)|	14 novembre|
+|2|	Installation d'un serveur Linux avec LVM et configuration réseau	 |Ex2 et Ex3|14 novembre|
+|3|	Accès distant, les protocoles SSH/SCP et Git accès distant |Ex4|
 |4|	Admin système les droits et accès |Ex4|
 |5|	Admin système Noyau, processus et logs |Ex5|
 || **Travail pratique 1 : Installation d'un serveur** |**Tp1**||
