@@ -208,7 +208,6 @@ Docker sous MAC : https://docs.docker.com/desktop/install/mac-install/.
 
 Nous allons faire une configuration supplémentaire, on va installer le shell zshell, un shell plus fonctionnel que le bash.
 
-**Note** : cette configuration supplémentaire est optionnelle.
 a.	Installer le shell zsh et vérifier son installation.
 
 ```bash
