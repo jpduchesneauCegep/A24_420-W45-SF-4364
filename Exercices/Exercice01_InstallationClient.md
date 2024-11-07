@@ -96,7 +96,7 @@ cat .ssh/id_ed25519.pub
 
 L’autre fichier, id\_ed25519.pub est la clé publique, elle doit être envoyée sur votre serveur distant. Par exemple, dans votre profil GitHub dans Setting -> SSH and GPG Keys -> New SSH Key. Dans ce cas vous faite une copie du contenu id\_ed25519.pub et vous le coller dans l'espace dans le champ prévu à cet effet  (key) et donnez un nom significatif à votre clé dans Title:
 
-![Git Hub SSH](../images/GitHubSSH.jpg)
+![Git Hub SSH](../images/)
 
 Par la suite, vous pourrez vous connecter avec le mode ssh à tous vos dépôts github.
 
@@ -144,7 +144,7 @@ lsblk
 
 #sdb, ce sont les données sur votre deuxième disque dur non utilisé. Nous allons le configurer dans un autre exercice.
 ```
-![Lsblk](images/lsblk.jpg)
+![Lsblk](../images/lsblk.jpg)
 
 Il est également possible d’avoir des informations en mode graphique. Pour ce faire, utiliser l’outil disk. 
 
@@ -222,7 +222,7 @@ chsh -s $(which zsh)
 
 Pour voir le changement, vous devez ouvrir une nouvelle fenêtre de commandes. À la fenêtre ci-dessous, répondez 2 pour peupler le fichier ~/.zshrc.
 
-[![Image](images/zsh1.png)]
+[![Image](../images/zsh1.png)]
 
 c.	Pour pouvoir personnaliser l’apparence vous devez installer oh-my-zsh.
 
