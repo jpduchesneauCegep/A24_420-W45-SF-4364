@@ -5,8 +5,8 @@
 
 Ce calendrier est donné à titre indicatif et peut être modifié en fonction des circonstances. Dans le cas des examens, les étudiants seront toujours avisés dans un délai raisonnable
 
-|Cours	|Contenu|Évaluations| Date cours | Date remise exercice   
-|----------:|-------------|:------:|:------:|:------:|
+|Cours	|Date cours |Contenu|Évaluations|  Date remise exercice   
+|----------:|:-------------:|:----------------:|:------:|:------:|
 |1|	Présentation du plan de cours ||11 novembre|
 | | Présentation des concepts de bases||
 | |Exercice 1 : Installation Ubuntu |[Ex1](Exercices/Exercice01_InstallationClient.md)|	14 novembre|
