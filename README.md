@@ -1,18 +1,6 @@
 # Installation des serveur et des services 
 ## A24_420-W45-SF-4364, automne 2024
 
-### Récapitulatif de la pondération des évaluations sommatives
-
-|Évaluation | Pondération (en %) |
-|:-------------|:------:|
-|TP1 – Déploiement d’un système d’exploitation	| 10|
-|TP2 – Docker	|10|
-|TP3 - Mise en place d’un service Web (Docker compose)	| 10|
-|TP4 – Automatisation	| 10|
-|Examen partiel	| 20|
-|Évaluation finale à caractère synthèse	 |30|
-|Réalisation des exercices	|10|
-
 ### CALENDRIER
 
 Ce calendrier est donné à titre indicatif et peut être modifié en fonction des circonstances. Dans le cas des examens, les étudiants seront toujours avisés dans un délai raisonnable
@@ -51,3 +39,15 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |28|	Automatisation – TP4 automatisation	|TP4|
 |29|	**Évaluation finale à caractère synthèse	Examen final**|Examen final||
 |30|	**Évaluation finale à caractère synthèse	Examen final**|Examen final||
+
+### Récapitulatif de la pondération des évaluations sommatives
+
+|Évaluation | Pondération (en %) |
+|:-------------|:------:|
+|TP1 – Déploiement d’un système d’exploitation	| 10|
+|TP2 – Docker	|10|
+|TP3 - Mise en place d’un service Web (Docker compose)	| 10|
+|TP4 – Automatisation	| 10|
+|Examen partiel	| 20|
+|Évaluation finale à caractère synthèse	 |30|
+|Réalisation des exercices	|10|
