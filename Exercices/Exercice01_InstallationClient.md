@@ -99,7 +99,7 @@ cat .ssh/id_ed25519.pub
 
 L’autre fichier, id\_ed25519.pub est la clé publique, elle doit être envoyée sur votre serveur distant. Par exemple, dans votre profil GitHub dans Setting -> SSH and GPG Keys -> New SSH Key. Dans ce cas vous faite une copie du contenu id\_ed25519.pub et vous le coller dans l'espace dans le champ prévu à cet effet  (key) et donnez un nom significatif à votre clé dans Title:
 
-![Git Hub SSH](../images/)
+![Git Hub SSH](../images/GitHubSSH.jpg)
 
 Par la suite, vous pourrez vous connecter avec le mode ssh à tous vos dépôts github.
 
