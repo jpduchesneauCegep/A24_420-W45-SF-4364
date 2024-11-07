@@ -14,8 +14,8 @@ Cet exercice a pour objectifs :
 
 Dans cet exercice, vous allez vous installer un environnement de travail pour la majorité des exercices et des travaux pratiques du cours. Vous allez utiliser un client Linux Ubuntu comme étant un client. Mais, comme nous allons installer des logiciels serveur, il va faire également office de serveur.
 
-###Attention : ne tapez pas les commandes dans le terminal de votre VM sans comprendre ce que vous faites !
-###Utilisez les page man pour comprendre les commandes et les options. 
+### Attention : ne tapez pas les commandes dans le terminal de votre VM sans comprendre ce que vous faites !
+### Utilisez les page man pour comprendre les commandes et les options. 
 
 ## Partie 1 : Installation d’Ubuntu 
 Dans cette partie, vous allez installer un serveur Ubuntu selon les spécifications données.
