@@ -23,7 +23,7 @@ Dans cette partie, vous allez installer un serveur Ubuntu selon les spécificati
 a - En utilisant l’ISO ubuntu-24.04-desktop-amd64.iso, créez une machine virtuelle selon les spécifications suivantes :
 
     Dossier dans vSphere : DFC DS/VM DFC/A24_4364_420W45_ISS_JPD/
-    Nom de la VM : E24_4364_Ub_Cli_Initiale_#Matricule
+    Nom de la VM : A24_4364_Ub_Cli_Initiale_#Matricule
     Storage (disque vSphere) : ESXDFC2
     CPU : 2
     Mémoires : 4 Go
