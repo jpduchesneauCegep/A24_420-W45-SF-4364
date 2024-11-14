@@ -179,18 +179,12 @@ Docker sous Windows : https://docs.docker.com/desktop/windows/install/.
 
 Docker sous MAC : https://docs.docker.com/desktop/mac/install/ .
 
-c.	Nous allons également installer Docker Compose.
-
-Pour Docker Compose, aller au site Web https://docs.docker.com/compose/install/. Sous «Install Compose», cliquer sur Linux et suivre les instructions d’installation.
-
-
 ## Lancez les commandes nécessaires à votre remise :
 
 ```bash
 # Les informations à l'ouverture de la session 
 git version
 docker --version
-docker compose version
 ```
 ## Compétences développées
 
