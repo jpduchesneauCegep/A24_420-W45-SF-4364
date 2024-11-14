@@ -26,8 +26,8 @@ a - En utilisant l’ISO ubuntu-24.04-desktop-amd64.iso, créez une machine virt
     Nom de la VM : A24_4364_Ub_Cli_Initiale_#Matricule
     Storage (disque vSphere) : ESXDFC2
     CPU : 2
-    Mémoires : 4 Go
-    Disque dur : 2 disques, 20 Go chacun en **partitionnement dynamique (Thin provision)**   
+    Mémoires : 8 Go
+    Disque dur : 2 disques, 25 Go chacun en **partitionnement dynamique (Thin provision)**   
     **Attention**: Si vous avez oublié d'ajouter le deuxième disque lors de la configuration initiale, vous devrez modifier la configuration avant le démarrage pour ajouter un deuxième disque.
     Carte réseau : VM DFC2 (réseau 10.100.2.0)
     CD/DVD : ISO ubuntu-24.04-desktop-amd64.iso
