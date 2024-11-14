@@ -100,7 +100,13 @@ Si vous ne l'avez pas encore fait, lors de la connexion, faites une mise à jour
 sudo apt update
 sudo apt ugrade
 ```
+### Installer les VM tools
 
+Installez les VM tools : 
+
+```bash
+sudo apt install open-vm-tools 
+```
 
 ### Vérification des partitions et du système
 
