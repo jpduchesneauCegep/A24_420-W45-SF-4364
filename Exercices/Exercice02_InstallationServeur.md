@@ -98,7 +98,7 @@ Si vous ne l'avez pas encore fait, lors de la connexion, faites une mise à jour
 
 ```
 sudo apt update
-sudo apt ugrade
+sudo apt upgrade
 ```
 
 ### Vérification des partitions et du système
