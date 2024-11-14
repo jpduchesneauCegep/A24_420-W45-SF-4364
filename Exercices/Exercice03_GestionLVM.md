@@ -4,7 +4,7 @@
 - Évaluation : formative
 - Type de travail : individuel
 - Durée : 1 heure
-- Système d'exploitation : Linux Ubuntu client 22.04 et Ubuntu serveur 22.04
+- Système d'exploitation : Linux Ubuntu client 24.04 et Ubuntu serveur 24.04
 - Environnement : virtuel, vSphere.
 
 ### Objectifs :
