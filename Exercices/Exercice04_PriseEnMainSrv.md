@@ -23,7 +23,7 @@ Vous devez remettre un document Word contenant les vérifications demandées.
 
 ## Section 1 Prise en main de votre serveur
 
-Quand vous vous connectez à votre serveur, certaines [informations](images/Connexion.png) importantes vous sont fournies. L'adresse IP est l'une de plus importante. Notez là.
+Quand vous vous connectez à votre serveur, certaines [informations](../images/Connexion.png) importantes vous sont fournies. L'adresse IP est l'une de plus importante. Notez là.
 
 
 Lors de l'installation, vous avez coché oui à l'installation d'un serveur SSH.
@@ -166,7 +166,7 @@ $ls -l /etc/shadow
 $ls -l /home # Regarder votre utilisateur.
 ```
 
-Vous pouvez visualiser un exemple de résultats [ici](images/droit.png).
+Vous pouvez visualiser un exemple de résultats [ici](../images/droit.png).
 
 **Question** : Selon-vous, pourquoi seule root et le groupe shadow ont le droit lecture sur <code>/etc/shadow</code> et que tout le monde peut lire <code>/etc/passwd</code> ?
 
@@ -183,11 +183,11 @@ Je dois pouvoir vous identifier sur la capture.
 
 Exemple de capture acceptable client: 
 
-![Capture acceptable](images/captureAcceptable.jpg)
+![Capture acceptable](../images/captureAcceptable.jpg)
 
 Exemple de capture acceptable serveur: 
 
-![Capture acceptable](images/captureAcceptableSrv.jpg)
+![Capture acceptable](../images/captureAcceptableSrv.jpg)
 
 ## Section 2 Accès distant
 
@@ -198,7 +198,7 @@ Exemple de capture acceptable serveur:
 - Prenez la clé publique générée lors de l'exercice 1 et publiez-la sur votre compte GitHub. Bien sûr, si vous n'avez pas de compte créez-en un. Vous pouvez vous aider du livre Pro Git page 163. Ce livre est  disponible sur Léa.
 - Rendez-vous sur mon dépôt à l'adresse [https://github.com/jpduchesneauCegep/test_ste_foy_ISS](https://github.com/jpduchesneauCegep/test_ste_foy_ISS)
 - Faite un Fork de mon dépôt. Voir dans le coin droit cet outil :
-![fork](images/fork.jpg)
+![fork](../images/fork.jpg)
 
 
 **Question**: Qu'est-ce qu'un "fork" en Git?
@@ -280,7 +280,7 @@ sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.orig
 sudo cp /etc/ssh/sshd_config.orig /etc/ssh/sshd_config
 ``` 
 
-![Dossier ssh](images/DossierSSH.png)
+![Dossier ssh](../images/DossierSSH.png)
 
 Ouvrez le fichier de configuration du serveur sshd.
 
