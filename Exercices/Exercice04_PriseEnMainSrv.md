@@ -266,7 +266,6 @@ Vous pouvez toujours vous référer à la page de manuel de <code>ssh_config</co
 
 ### Sécuriser l'accès SSH du serveur de test
 
->**[!Attention]** Vous n'avez pas besoin d'appliquer les modifications  de façon permanentes. Par contre, vous devez connaître les possibilités d'amélioration de la sécurité SSH.
 
 >**[!Attention]** les commandes suivantes doivent être exécutées avec l'élévation des privilèges, donc en tant que SUDO.
 
@@ -274,7 +273,7 @@ Vous pouvez toujours vous référer à la page de manuel de <code>ssh_config</co
 
 Les fichiers de configuration de SSH sont situés dans <code>/etc/ssh/</code>. Comme tout fichier de configuration qu'on modifie, il est nécessaire de les sauvegarder avant de les modifier. 
 
-- Utilisez la technique suivante sur tous les fichiers de configuration que vous modifiez. Si j'aimais, il y a un problème, il est facile de revenir en arrière.
+- Utilisez la technique suivante sur tous les fichiers de configuration que vous modifiez. Si j'aimais, il y a un problème, il est facile de revenir en arrière. De plus à la fin de la section je vous recommande de revenir au fichier initale.
 
 ```bash
 sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.orig 
