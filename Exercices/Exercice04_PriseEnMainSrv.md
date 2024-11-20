@@ -265,7 +265,9 @@ Vous ajoutez autant de Hosts que vous en avez besoin.
 Vous pouvez toujours vous référer à la page de manuel de <code>ssh_config</code>  (<code>man ssh\_config</code>)pour en savoir plus sur les paramètres que vous pouvez utiliser lors de la création de votre fichier de configuration SSH.
 
 ### Sécuriser l'accès SSH du serveur de test
-
+­
+­
+>**[!Attention]** Vous ne devez pas nécessairement appliqué de fâcon permaente les modifications suivantes. Par contre vous devez connaitre les possibillité d'amélioration de la sécurité SSH.
 >**[!Attention]** les commandes suivantes doivent être exécutées avec l'élévation des privilèges, donc entant que SUDO.
 
 Établir une connexion ssh à votre serveur test.  
