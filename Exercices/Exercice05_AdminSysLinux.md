@@ -97,7 +97,7 @@ $sudo usermod -aG admin rayadi
 
 - Créez la structure suivante sur le serveur : 
 
-![Structure à créer](images/VarData.png)
+![Structure à créer](../images/VarData.png)
 
 - Modifiez les attributs de ces répertoires de la manière suivante :
 
@@ -298,7 +298,7 @@ syslog
 
 cat /etc/passwd |grep syslog
 
-![syslog](images/syslog.jpg)
+![syslog](../images/syslog.jpg)
 
 </details>
 
