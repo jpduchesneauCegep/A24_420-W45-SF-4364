@@ -14,7 +14,6 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |3| 21 nov|Accès distant, les protocoles SSH/SCP et Git accès distant |[Ex4](Exercices/Exercice04_PriseEnMainSrv.md)| 22 nov.
 |4|	22 nov|Admin système les droits et accès |[Ex5](Exercices/Exercice05_AdminSysLinux.md)|26 nov.
 |5|	26 nov|Admin système Noyau, processus et logs |[Ex6](Exercices/Exercice06_InstallationEnvTest.md)|27 nov. 
-|| |**Travail pratique 1 : Installation d'un serveur** |**Tp1**||
 |6|	28 nov|**Travail pratique 1 : Installation d'un serveur** |**Tp1**||
 |7|	3 déc|Docker	 ||
 |8|	6 déc|Docker file	 ||
