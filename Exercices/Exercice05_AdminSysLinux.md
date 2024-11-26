@@ -2,7 +2,7 @@
 
 ### Informations
 - Évaluation : formative
-- Type de travail : individuel
+- Type de travail : individueloup 
 - Durée : 3 heures
 - Système d'exploitation : Linux Ubuntu client et serveur 24.04
 - Environnement : virtuel, vsphere.
@@ -85,7 +85,7 @@ $sudo adduser Usager1 --shell /sbin/nologin --add_extra_groups --force-badname -
 Exemples :
 
 ```bash
-$sudo group add admin
+$sudo groupadd admin
 $sudo usermod -aG admin rayadi
 ```
 
