@@ -462,7 +462,7 @@ ping -c 3 [nomVotreMachine] # C'est l'autre nom avec une adresse débutante par 
 
 # Résolution de nom au niveau des serveurs DNS
 
-resolvectl status 
+sudo service systemd-resolved status
 ```
 
 - Vérifier si vous atteigniez les serveurs DNS : 
