@@ -13,8 +13,8 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |2|	14 nov|Installation d'un serveur Linux avec LVM et configuration réseau	 |[Ex2](Exercices/Exercice02_InstallationServeur.md) et [Ex3](Exercices/Exercice03_GestionLVM.md)| 20 nov|
 |3| 21 nov|Accès distant, les protocoles SSH/SCP et Git accès distant |[Ex4](Exercices/Exercice04_PriseEnMainSrv.md)| 22 nov.
 |4|	22 nov|Admin système les droits et accès |[Ex5](Exercices/Exercice05_AdminSysLinux.md)|26 nov.
-|5|	26 nov|Admin système Noyau, processus et logs |[Ex6](Exercices/Exercice06_InstallationEnvTest.md)|27 nov. 
-|6|	28 nov|**Travail pratique 1 : Installation d'un serveur** |**[Tp1](TPs/TravailPratique01.md)**||3 déc, 12h30
+|5|	26 nov|Admin système Noyau, processus et logs |[Ex6](Exercices/Exercice06_InstallationEnvTest.md)|27 nov. |
+|6|	28 nov|**Travail pratique 1 : Installation d'un serveur** |**[Tp1](TPs/TravailPratique01.md)**|3 déc, 12h30|
 |7|	3 déc|Docker	 ||
 |8|	6 déc|Docker file	 ||
 |9|	10 déc|Docker Réseau et volume	 ||
