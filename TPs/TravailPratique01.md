@@ -107,7 +107,7 @@ Pour vous aider, consulter les exercices que vous avez faits à ce jour.
 
 - Le temps alloué en classe est d'une période.
 - La date de remise est celle indiquée sur LÉA.
-- Ce travail pratique vaut pour 15 % de la note finale.
+- Ce travail pratique vaut pour 10 % de la note finale.
 - Ce travail est réalisé en équipe de 2 membres et seuls les membres de cette équipe y contribuent (pour la création).
 - Tout matériel est autorisé.
 - Toute copie de code, de portion de code, d’algorithme ou de texte doit faire mention de sa source.
