@@ -46,7 +46,7 @@ Le but de ce travail est de **documenter** la procédure d'installation d'un ser
    - Le micrologiel doit être de type UEFI.
    - Il y a 2 processeurs et 4 Go de mémoire vive.
    - Le disque dur de départ doit être de 100 Go en mode de provissionement dynamique.
-       - Ce serveur doit utiliser un système de stockage LVM, sauf pour la partion /boot/efi- 
+       - Ce serveur doit utiliser un système de stockage LVM, sauf pour la partion /boot/efi
        - Prévoyer une séparation au minimum de 3 partitions, justifier vos choix.
    - Il y une carte réseau présentent sur le réseau 10.100.2.    0/24
    - Ce serveur devrait pouvoir être accédé depuis une machine client depuis le protocole ssh. 
