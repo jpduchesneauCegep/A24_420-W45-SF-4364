@@ -36,11 +36,11 @@ Tous vos exercices à venir ce feront à partir de cette adresse.
 
 ```bash
  cd ~/Site
- docker run -dit --name my-apache-app -p 8080:80 -v $(pwd):/usr/local/apache2/htdocs/ httpd:2.4 
+ docker run -dit --name my-apache-app -p 8080:80 -v $(pwd):/usr/local/apache2/htdocs/ httpd:latest 
 ```
 
 <details>
-    <summary>Pour un rappelle, voici l'explication de la commande précédente</summary>
+    <summary>Voici l'explication de la commande précédente</summary>
 
 - run: commande de base pour exécuter un nouveau conteneur Docker.
 
@@ -52,9 +52,13 @@ Tous vos exercices à venir ce feront à partir de cette adresse.
 
 - -p : Mappe le port 80 du conteneur (celui utilisé par Apache) au port 8080 de votre machine hôte. Cela vous permet d'accéder au serveur web en utilisant http://localhost:8080 sur votre machine local.
 
-- -v $(pwd):/usr/local/apache2/htdocs/: Monte le répertoire courant de votre machine hôte dans le répertoire /usr/local/apache2/htdocs/ du conteneur. Cela signifie que les fichiers que vous placez dans votre répertoire courant seront accessibles par le serveur web à l'intérieur du conteneur.
+- -v $(pwd):/usr/local/apache2/htdocs/:
+    - v:  Monte le répertoire spécifié
+    - $(pwd) : Variable qui nous renvoi le rerertoire courant de votre machine hôte
+    - : Dans le répertoire /usr/local/apache2/htdocs/ du conteneur. 
+    - Cela signifie que les fichiers que vous placez dans votre répertoire courant seront accessibles par le serveur web à l'intérieur du conteneur.
 
-- httpd:2.4: Spécifie l'image Docker à utiliser. Dans ce cas, c'est une image contenant un serveur web Apache version 2.4.
+- httpd:latest: Spécifie l'image Docker à utiliser. Dans ce cas, la dernère version, donc la plus récente du serveur httpd.
 
 </details>
 
@@ -75,6 +79,7 @@ ss -tnap | grep 8080
 
 Vous avez une page Web ? 
 <details>
+ <summary>Réponse :</summary>
 En principe non. Vous voyez votre répertoire parce que vous n'avez pas de fichier index.html dans votre site Web.
 </details>
 - Dans le répertoire Sites ajouter une page Web index.html avec le contenu ci-dessous (vous pouvez l’améliorer à votre goût) et rafraîchir la page de votre navigateur.
@@ -92,15 +97,6 @@ Avez-vous votre page Web?
 Oui, sinon trouvez le problème.
 </details>
 
-
-
-
-
-
-
-
-
-
 ![docker container ls](../images/container_list.png)
 
 
@@ -110,11 +106,16 @@ Oui, sinon trouvez le problème.
 
 
 
-
-
 ## Pour vérification
 Remettre une capture démontrant vos 3 conteneurs s'exécutant.
-![Exemple de réponse.](../images/reponse06.png)  
+Avec une réponse au question suivante : 
+- Quel est le nom de l'image Docker utilisée pour créer le conteneur Apache
+- Quel est la version de l'image
+- Quel est son id
+- Quel est son nom
+- Quel est son poid ?
+
+![Exemple d'image](../images/reponse06.png)  
 
 ## Références
 [https://docs.docker.com/](https://docs.docker.com/)
