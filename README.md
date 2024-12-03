@@ -15,7 +15,7 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |4|	22 nov|Admin système les droits et accès |[Ex5](Exercices/Exercice05_AdminSysLinux.md)|26 nov.
 |5|	26 nov|Admin système Noyau, processus et logs |[Ex6](Exercices/Exercice06_InstallationEnvTest.md)|27 nov. |
 |6|	28 nov|**Travail pratique 1 : Installation d'un serveur** |**[Tp1](TPs/TravailPratique01.md)**|3 déc, 12h30|
-|7|	3 déc|Docker	 ||
+|7|	3 déc|Docker	 |[Ex7](Exercices/Exercice07_PriseEnMainConteneur.md)|
 |8|	6 déc|Docker file	 ||
 |9|	10 déc|Docker Réseau et volume	 ||
 |10| 17 déc|**Travail pratique 2 : Docker**	 ||
