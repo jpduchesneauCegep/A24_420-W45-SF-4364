@@ -125,7 +125,7 @@ Pour vérifier les conteneurs qui s’exécutent, exécuter la commande :
 docker container ls
 ```
 
-![docker container ls](images/container_list.png)
+![docker container ls](../images/container_list.png)
 
 Chaque conteneur a un ID et un nom (NAMES). Si l’on ne spécifie pas de nom, un nom au hasard est utilisé. L’ID et le nom doivent être uniques pour tous nos conteneurs.  
 
@@ -255,7 +255,7 @@ docker container rm -f ID
 Vérifier que les conteneurs sont effacés : <code>docker container ls -a</code>.
 
 Voici un bref résumé de la commande <code>docker container run</code>.  
-![docker container run](images/docker_container_run.png)
+![docker container run](../images/docker_container_run.png)
 
 ## Section 2 - gestion de plusieurs conteneurs
 
@@ -299,7 +299,7 @@ Utiliser le paramètre <code>--help</code> pour vous aider dans les commandes Do
 
 ## Pour vérification
 Remettre une capture démontrant vos 3 conteneurs s'exécutant.
-![Exemple de réponse.](images/reponse06.png)  
+![Exemple de réponse.](../images/reponse06.png)  
 
 ## Références
 [https://docs.docker.com/](https://docs.docker.com/)
