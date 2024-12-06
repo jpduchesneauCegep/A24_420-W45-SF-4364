@@ -106,7 +106,7 @@ docker build -f un_fichier_dockerfile
 	</details>
 
 - Créez un répertoire de travail : par exemple <code>Docker</code>.
-- Dézipper le fichier [dockerfile-exemple.zip](extra/dockerfile-exemple.zip) dans votre répertoire de travail.
+- Dézipper le fichier [dockerfile-exemple.zip](../extra/dockerfile-exemple.zip) dans votre répertoire de travail.
 - Allez dans le répertoire <code>dockerfile-exemple</code>. Ouvrez le fichier <code>Dockerfile</code>. Le fichier <code>index.html</code> va nous servir « d’application » à intégrer dans notre serveur nginx.
 - Voici ce que fait le <code>Dockerfile</code> :
 	- Nous allons utiliser une image officielle (la commande <code>FROM</code>). On peut utiliser une image officielle comme image de départ, c’est même recommandé et ça rend notre tâche beaucoup plus simple.
