@@ -85,7 +85,7 @@ int main(int argc, char** argv) {
 
 ## Pour vérification
 Remettre une capture d’écran de la dernière création et du dernier test de l'image.  
-![Exemple de remise](images/remiseExerc07.png)
+![Exemple de remise](../images/remiseExerc07.png)
 
 
 ## Section 2 - Créer une image à partir d'une autre image
