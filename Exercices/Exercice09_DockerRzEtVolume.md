@@ -148,8 +148,7 @@ Dans cette section, vous allez devoir utiliser l'image du serveur Web nginx afin
 ### Section 4.1 - Création d'un projet MVC en .Net core
 
 - Au besoin, procéder à l'installation : 
-[Installing .NET 6 on Ubuntu 22.04 (Jammy)] (https://github.com/dotnet/core/issues/7699)
-
+[Vue d’ensemble de .NET sur Ubuntu] (https://learn.microsoft.com/fr-fr/dotnet/core/install/linux-ubuntu)
 
 - À partir d'un terminal et de la commande dotnet, créez une application :
 
