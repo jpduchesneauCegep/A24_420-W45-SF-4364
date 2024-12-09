@@ -125,7 +125,7 @@ Dans cette section, vous allez devoir utiliser l'image du serveur Web nginx afin
 - Refaites les tests de la partie précédente (utiliser http://localhost:1234 pour le navigateur local).
 - Nettoyez vos conteneurs en supprimant ceux créés dans cette partie.
 
-## Section 3 - Ngnix - volume
+## Section 3 - Nginx - volume
 
 - Créez vous un répertoire de travail temporaire et créez un fichier <code>index.html</code>. Dans ce fichier, écrivez un code html simple afin d'afficher "Un fichier de mon hôte servi à partir d'un conteneur"
 - Par défaut, l'image "Nginx" utilise le répertoire <code>/usr/share/nginx/html</code> comme base de recherche de ses fichiers statiques. Vous allez devoir créer un point de montage (bind mount) afin que votre répertoire soit monté vers ce chemin au moment du démarrage du conteneur (consultez la partie "Hosting some simple static content" de la documentation [Documentation Nginx](https://hub.docker.com/_/nginx)). Vous devez également faire une liaison entre le port 1234 de l'hôte vers le port 80 du conteneur.
