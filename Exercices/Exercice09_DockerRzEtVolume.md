@@ -148,7 +148,7 @@ Dans cette section, vous allez devoir utiliser l'image du serveur Web nginx afin
 ### Section 4.1 - Création d'un projet MVC en .Net core
 
 - Au besoin, procéder à l'installation : 
-[Installer le Kit de développement logiciel (SDK) .NET ou le runtime .NET sur Ubuntu]([https://learn.microsoft.com/fr-fr/dotnet/core/install/linux-ubuntu](https://learn.microsoft.com/fr-fr/dotnet/core/install/linux-ubuntu-install?pivots=os-linux-ubuntu-2404&tabs=dotnet9))
+[Installer le Kit de développement logiciel (SDK) .NET ou le runtime .NET sur Ubuntu](https://learn.microsoft.com/fr-fr/dotnet/core/install/linux-ubuntu](https://learn.microsoft.com/fr-fr/dotnet/core/install/linux-ubuntu-install?pivots=os-linux-ubuntu-2404&tabs=dotnet9)
 
 - À partir d'un terminal et de la commande dotnet, créez une application :
 
