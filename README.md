@@ -17,7 +17,7 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |6|	28 nov|**Travail pratique 1 : Installation d'un serveur** |**[Tp1](TPs/TravailPratique01.md)**|3 déc, 12h30|
 |7|	3 déc|Docker	 |[Ex7](Exercices/Exercice07_PriseEnMainConteneur.md)|6 déc, 12h30|
 |8|	6 déc|Docker file	 |[Ex8](Exercices/Exercice08_DockerImage.md) |10 déc, 8h30|
-|9|	10 déc|Docker Réseau et volume	 ||
+|9|	10 déc|Docker Réseau et volume	 |[Ex](Exercices/Exercice09_DockerRzEtVolume.md) |17 déc, 12h30|
 |10| 17 déc|**Travail pratique 2 : Docker**	 ||
 |11| 19 déc |**Travail pratique 2 : Docker**	 ||
 |12|7 jan|Docker compose ||
