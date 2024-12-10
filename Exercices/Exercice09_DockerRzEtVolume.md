@@ -249,7 +249,7 @@ docker run --rm --name wordpress -d -e WORDPRESS_DB_HOST=172.17.0.2 -e WORDPRESS
 ## Pour vérification
 Remettre une capture d’écran de votre site WordPress et du `ps` affichant votre conteneur s'exécutant.  
 
-![Exemple](images/Exerc08.png)
+![Exemple](../images/Exerc08.png)
 
 ### Section 5.2 - Wordpress - Un début d'orchestration ?
 
