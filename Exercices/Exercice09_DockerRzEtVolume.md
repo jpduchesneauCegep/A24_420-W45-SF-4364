@@ -143,81 +143,9 @@ Dans cette section, vous allez devoir utiliser l'image du serveur Web nginx afin
 - Vérifiez que le tout fonctionne toujours.
 - Nettoyez vos conteneurs en supprimant celui créé dans cette partie.
 
-## Section 4 - Application MVC core
+## Section 4 - MySQL
 
-### Section 4.1 - Création d'un projet MVC en .Net core
-
-- Au besoin, procéder à l'installation : 
-[Installer le Kit de développement logiciel (SDK) .NET ou le runtime .NET sur Ubuntu](https://learn.microsoft.com/fr-fr/dotnet/core/install/linux-ubuntu-install?pivots=os-linux-ubuntu-2404&tabs=dotnet9)
-
-- À partir d'un terminal et de la commande dotnet, créez une application :
-
-  - Type : mvc
-  - Nom : webapp
-- Modifiez le fichier "Views/Home/Index.cshtml" pour y ajouter votre prénom / nom.
-- Testez que l'application fonctionne localement.
-
-<details>
- <summary>Création de l'application MVC.</summary>
-
-```bash
-dotnet new mvc -au None -n webapp
-cd webapp/
-dotnet run
-```
-- Testez l'application localement: Ouvrez un navigateur avec localhost et le port mentionné pour le dotnet run. Quitter l'application avec Ctrl-c. 
-</details>
-
-### Section 4.2 - Création d'un compte docker hub
-
-- Allez sur le site de docker hub et créez-vous un compte.
-- Créez un dépôt nommé "webapp".
-
-### Section 4.3 - Création d'une image
-
-- Placez-vous à la racine du projet.
-- Créez le fichier Dockerfile avec le contenu suivant :
-
-```Dockerfile
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
-WORKDIR /app
-
-COPY *.csproj ./
-RUN dotnet restore
-
-COPY . ./
-RUN dotnet publish -c Release -o out
-
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
-WORKDIR /app
-COPY --from=build-env /app/out .
-ENTRYPOINT ["dotnet", "webapp.dll"]
-```
-
-- Assurez-vous de bien comprendre chaque ligne du fichier Dockerfile.
-- Construisez l'image "votreDockerId/webapp" avec la version "latest"
-
-```bash 
-docker build --tag votreDockerId/webapp:latest .
-docker image ls
-```
-- Exécutez un conteneur à partir de cette image (vous devez spécifier votreDockerId/webapp pour votre image) en liant le port 80 du conteneur au port 5000 de l'hôte.
-- Validez que le tout fonctionne (attention vous allez être en http).
-
-### Section 4.4 - Publication
-
-- Sur un terminal exécuter la commande <code>docker login</code> et tapez vos informations de connexion.
-- Exécutez la commande <code>docker push votreDockerId/webapp:latest</code> (un exemple de la commande est disponible dans votre dépôt). La première fois que vous allez effectuer cette commande, si ce n'est pas déjà fait, il va vous demander vos informations de connexion.
-- Allez dans votre compte sur docker hub et validez que votre image est bien présente.
-- Supprimez votre image docker locale.
-- Démarrez un conteneur à partir de l'image qui est sur docker hub et vérifiez que tout fonctionne. Docker devrait télécharger l'image de votre dépôt.
-- Demandez le nom de l'image d'un de vos collègues ou utilisez mon image `clauderoy/webapp`.
-- Démarrez un conteneur avec cette image et validez que tout fonctionne. 
-- Nettoyez vos conteneurs en supprimant ceux créés dans cette section.
-
-## Section 5 - MySQL
-
-### Section 5.1 - MySQL - Base
+### Section 4.1 - MySQL - Base
 
 - Si ce n'est déjà fait sur votre environnement docker, installez MySQL Workbench (https://dev.mysql.com/downloads/workbench/, choisir la bonne version pour votre Ubuntu).
 
@@ -256,7 +184,7 @@ docker run -d --rm --name mysql -e MYSQL_ROOT_PASSWORD=Passw0rd -p 3306:3306 mys
 
 - Supprimez votre conteneur.
 
-### Section 5.2 - MySQL - Volume
+### Section 4.2 - MySQL - Volume
 
 - Créez-vous un répertoire qui va contenir vos données pour MySQL.
 - Réutilisez votre ligne de commande pour créer un conteneur MySQL avec les mêmes caractéristiques que précédemment et ajoutez le montage d'un volume qui lie le répertoire de données que vous venez de créer au répertoire "/var/lib/mysql".
@@ -285,9 +213,9 @@ docker run -d --rm --name mysql -e MYSQL_ROOT_PASSWORD=Passw0rd -p 3306:3306 -v 
 - Supprimez votre conteneur.
 
 
-## Section 6 - Wordpress - On fait parler plusieurs conteneurs ?
+## Section 5 - Wordpress - On fait parler plusieurs conteneurs ?
 
-### Section 6.1 - Wordpress - Version manuelle
+### Section 5.1 - Wordpress - Version manuelle
 
 - Créez-vous un nouveau répertoire pour stocker une autre installation de bases de données.
 - Créez un nouveau conteneur avec les options précédentes en modifiant le chemin du montage ainsi qu'en ajoutant les variables d'environnement suivantes :
@@ -323,7 +251,7 @@ Remettre une capture d’écran de votre site WordPress et du `ps` affichant vot
 
 ![Exemple](images/Exerc08.png)
 
-### Section 6.2 - Wordpress - Un début d'orchestration ?
+### Section 5.2 - Wordpress - Un début d'orchestration ?
 
 - Lisez et exécutez les instructions présentes à la page suivante : [https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/wordpress/](https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/wordpress/)
 	- Pour l'arrêter utiliser la commande <code>docker compose down</code>.
