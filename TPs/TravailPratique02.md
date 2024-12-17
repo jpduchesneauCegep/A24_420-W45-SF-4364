@@ -80,18 +80,15 @@ Dans le fichier `README.md`, inclure une section <code>Section 1 - étape 2</cod
 
 Vous allez maintenant vous construire une image personnalisée pour « tester » drupal. Drupal est une plateforme de gestion de contenu open source.  
 
-À votre dépôt GitHub, ajouter un répertoire `drupal_bootstrap`. Ajouter au répertoire un fichier `README.md` qui décrit la partie Drupal. Utilisez ce répertoire comme répertoire de travail pour cette partie.
+À votre dépôt GitHub, ajouter un répertoire `mon_drupal` et l'intérieure de celui-ci, créer deux répetoires : `drupal` et `postresql`. Ajouter au répertoire  `mon_drupal` un fichier `README.md` qui décrit la section mon drupal.
+
 
 - Consultez le dépôt de Drupal sur docker hub : [https://hub.docker.com/_/drupal](https://hub.docker.com/_/drupal).
 
 - **Attention** : N'utilisé pas la partie Docker-Compose. Nous verron l'utilisation de Doker-Compose au retour des vacances des fêtes.
 
-- Pour son fonctionnement, Drupal nécessite une base de données. Vous allez utiliser l’image drupal avec une base de données PostgreSQL. Consulter la documentation de Drupal sur docker hub sous la section PostgreSQL pour savoir comment lancer le conteneur PostgreSQL. 
-
+- Vous allez créer un `Dockerfile` pour avoir une image drupal personnalisée dans votre dossier `drupal`
 - Vous devez exposer Drupal sur le port 8080 afin que vous puissiez utiliser un navigateur avec `localhost:8080`.
-
-- Vous allez créer un `Dockerfile` pour avoir une image drupal personnalisée.
-
 - Pour votre Dockerfile.
   
   - Vous allez créer un fichier `Dockerfile` qui utilise l’image de drupal, <code>FROM drupal</code>.
