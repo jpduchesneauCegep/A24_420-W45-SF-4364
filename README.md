@@ -18,8 +18,8 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |7|	3 déc|Docker	 |[Ex7](Exercices/Exercice07_PriseEnMainConteneur.md)|6 déc, 12h30|
 |8|	6 déc|Docker file	 |[Ex8](Exercices/Exercice08_DockerImage.md) |10 déc, 8h30|
 |9|	10 déc|Docker Réseau et volume	 |[Ex9](Exercices/Exercice09_DockerRzEtVolume.md) |17 déc, 12h30|
-|10| 17 déc|[**Travail pratique 2 : Docker**	 ](TPs/TravailPratique02.md)||
-|11| 19 déc |**Travail pratique 2 : Docker**	 |20 décembre fin de journée|
+|10| 17 déc|**Travail pratique 2 : Docker**	 |[TP2] (TPs/TravailPratique02.md)||
+|11| 19 déc |**Travail pratique 2 : Docker**	 | |20 décembre fin de journée|
 |12|7 jan|Docker compose ||
 |13|14 jan|	Présentation du service de résolution de nom DNS	
 |14|16 jan|DNS Docker et Docker compose	 ||
