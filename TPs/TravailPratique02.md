@@ -80,7 +80,7 @@ Dans le fichier `README.md`, inclure une section <code>Section 1 - étape 2</cod
 
 Vous allez maintenant vous construire une image personnalisée pour « tester » drupal. Drupal est une plateforme de gestion de contenu open source.  
 
-À votre dépôt GitHub, ajouter un répertoire `mon_drupal` et l'intérieure de celui-ci, créer deux répetoires : `drupal` et `postresql`. Ajouter au répertoire  `mon_drupal` un fichier `README.md` qui décrit la section mon drupal.
+À votre dépôt GitHub, ajouter un répertoire `mon_drupal` et l'intérieure de celui-ci, créer deux répetoires : `drupal` et `postgresql`. Ajouter au répertoire  `mon_drupal` un fichier `README.md` qui décrit la section mon drupal.
 
 
 - Consultez le dépôt de Drupal sur docker hub : [https://hub.docker.com/_/drupal](https://hub.docker.com/_/drupal).
@@ -98,7 +98,10 @@ Vous allez maintenant vous construire une image personnalisée pour « tester »
   - Ensuite, vous allez exécuter la commande <code>git clone --branch 5.0.x --single-branch --depth 1 https://git.drupalcode.org/project/bootstrap.git</code>, pour installer le thème Bootstrap. Vous allez également changer le propriétaire des fichiers copiés, <code>chown -R www-data:www-data bootstrap</code>. Pour ne pas ajouter une couche à l’image, vous allez encore utiliser une ligne de commande.
   - Finalement, vous allez changer pour le répertoire <code>/var/www/html</code>.
   - Consultez la section **Volumes** de la documentation de Drupal pour inclure des volumes à Drupal. Utilisez des volumes Docker.
-  - - Vous devez exposer Drupal sur le port 8080 afin que vous puissiez utiliser un navigateur avec `localhost:8080`.
+  - Vous devez exposer Drupal sur le port 8080 afin que vous puissiez utiliser un navigateur avec `localhost:8080`.
+  
+- Vous allez créer un `Dockerfile` pour avoir une image Postrgres personnalisée dans votre dossier `postgresql`
+
   - Pour le service `postgresql`, utiliser les informations de la section **PostgreSQL** de la documentation de Drupal. Par contre, vous allez ajouter le volume <code>drupal-data:/var/lib/postgresql/data</code> au service PostgreSQL.
 
 - Pour le lancement des conteneurs.
