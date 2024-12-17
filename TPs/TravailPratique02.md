@@ -38,6 +38,7 @@ Vous devez créer un dépôt GitHub pour votre travail pratique 2.
 - Votre dépôt GitHub va contenir : 
   - Un fichier README.md qui résume les informations sur le dépôt.
     - Nom du projet  
+    - Votre nom
     - Date 
     - Description du projet 
 - Le professeur doit être _Collaborateur_.
