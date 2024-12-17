@@ -101,8 +101,8 @@ Vous allez maintenant vous construire une image personnalisée pour « tester »
   - Vous devez exposer Drupal sur le port 8080 afin que vous puissiez utiliser un navigateur avec `localhost:8080`.
   
 - Vous allez créer un `Dockerfile` pour avoir une image Postrgres personnalisée dans votre dossier `postgresql`
-- 
-      - Pour le service `postgresql`, utiliser les informations de la section **PostgreSQL** de la documentation de Drupal. Par contre, vous allez ajouter le volume <code>drupal-data:/var/lib/postgresql/data</code> au service PostgreSQL.
+
+  - Pour le service `postgresql`, utiliser les informations de la section **PostgreSQL** de la documentation de Drupal. Par contre, vous allez ajouter le volume <code>drupal-data:/var/lib/postgresql/data</code> au service PostgreSQL.
 
 - Pour le lancement des conteneurs.
   
