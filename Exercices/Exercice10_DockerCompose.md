@@ -47,7 +47,7 @@ serveurweb:
 ```
 
 <details>
-	<summary>Observer le fichier <code>nginx.conf</code>. Pouvez-vous trouver à quel endroit on utilise le DNS de Docker pour référencer notre deuxième conteneur (vous n’avez pas à comprendre le fichier <code>nginx.conf</code>) ?</summary>
+	<summary>Observer le fichier <code>nginx.conf</code>. Pouvez-vous trouver à quel endroit on utilise le DNS de Docker pour référencer notre deuxième conteneur ?(vous n’avez pas à comprendre le fichier <code>nginx.conf</code>) </summary>
 
 Avec le paramètre <code>proxy_pass</code>. Il référence le nom docker DNS du fichier docker compose.
 	
