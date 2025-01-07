@@ -207,10 +207,9 @@ Pour plus d'informations sur la rédaction de Dockerfiles, consultez [le guide d
 
 ## Étapes 3 : Définir les services dans un fichier docker-compose
 
-Créez un fichier appelé `docker-compose.yml` dans le répertoire de votre projet et collez ce qui suit:
+Créez un fichier appelé `docker-compose.yml` dans le répertoire de votre projet et tapez ce qui suit:
 
 ```docker-compose.yml
-version: "3.9"
 services:
   web:
     build: .
