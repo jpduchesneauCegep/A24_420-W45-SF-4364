@@ -317,7 +317,7 @@ Actualisez l'application dans votre navigateur. Le message d'accueil devrait êt
 
 Remettre une capture d’écran de votre site Application dans l'espace travaux, sur LÉA.
 
-![Exemple de vérification.](images/Exerc10.png)
+![Exemple de vérification.](../images/Exerc10.png)
 
 ## Étapes 8 : Expérimentez d'autres commandes
 
