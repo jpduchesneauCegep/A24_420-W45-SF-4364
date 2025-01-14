@@ -23,20 +23,20 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |12|7 jan|Docker compose |[Ex10](Exercices/Exercice10_DockerCompose.md)|14 jan., 12h30 |
 |13|14 jan|	Présentation du service de résolution de nom DNS	
 |14|16 jan|DNS Docker et Docker compose	 ||
-|15|16 jan|	**Examen partiel** |**Examen 1**|
-|16|23 jan|	Apache, installation, config de base	 ||
-|17|28 jan|	Apache, modules et SSL	 ||
-|18|3 fev|	Apache, installation d’un site Web et site virtuel	 ||
-|19|6 fev|	Nginx, installation, config de base	 ||
-|20|11 fev|	Nginx, configurations avancées (reverse proxy et load balancer) ||	
-|21|13 fev| TP3- Travail sur serveur Web (Nginx et Apache, docker-compose)	|TP3|
-|22|20 fev|	TP3	|TP3|	
-|23|27 fev| TP3	|TP3|
-|24|3 mar|Automatisation et Ansible||
-|25|6 mar|Automatisation mode AdHoc||
-|26|13 mar|	Automatisation PlayBook	||
-|27|17 mar|	Automatisation – TP4 automatisation	|TP4|||
-|28|20 mar|	Automatisation – TP4 automatisation	|TP4|||
+|15|23 jan|	**Examen partiel** |**Examen 1**|
+|16|28 jan|	Apache, installation, config de base	 ||
+|17|3 fev|	Apache, modules et SSL	 ||
+|18|6 fev|	Apache, installation d’un site Web et site virtuel	 ||
+|19|11 fev|	Nginx, installation, config de base	 ||
+|20|13 fev|	Nginx, configurations avancées (reverse proxy et load balancer) ||	
+|21|20 fev| TP3- Travail sur serveur Web (Nginx et Apache, docker-compose)	|TP3|
+|22|27 fev|	TP3	|TP3|	
+|23|3 mar| TP3	|TP3|
+|24|6 mar|Automatisation et Ansible||
+|25|13 mar|Automatisation mode AdHoc||
+|26|17 mar|	Automatisation PlayBook	||
+|27|20 mar|	Automatisation – TP4 automatisation	|TP4|||
+|28|25 mar|	Automatisation – TP4 automatisation	|TP4|||
 |29|27 mar|	**Évaluation finale à caractère synthèse**|Examen final|||
 |30|3 avr|	**Évaluation finale à caractère synthèse** | Examen final||
 
