@@ -24,7 +24,7 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |13|14 jan|	Présentation du service de résolution de nom DNS	|[Ex11](Exercices/Exercice11_DNS.md)|16 janv, 12h30 |
 |14|16 jan| Révision	 |||
 |15|23 jan|	**Examen partiel** |**Examen 1**|
-|16|28 jan|	Apache, installation, config de base	 ||
+|16|28 jan|	Apache, installation, config de base	 |[Ex12](Exercices/Exercice11_DNS.md)|3 fév., 12h30 |
 |17|3 fev|	Apache, modules et SSL	 ||
 |18|6 fev|	Apache, installation d’un site Web et site virtuel	 ||
 |19|11 fev|	Nginx, installation, config de base	 ||
