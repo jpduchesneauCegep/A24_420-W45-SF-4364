@@ -269,4 +269,4 @@ Vous pouvez constater que la résolution DNS fonctionne.
 
 Remettre une capture d’écran qui inclus la création de votre réseau privé virtuel, le lancement de votre conteneur dans le réseau privé virtuel et le conteneur alpine qui ping le nom du conteneur dans l'espace travaux, sur LÉA.
 
-![Exemple de vérification.](images/Exerc11.png)
+![Exemple de vérification.](../images/Exerc11.png)
