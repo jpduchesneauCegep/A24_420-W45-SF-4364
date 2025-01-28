@@ -159,7 +159,7 @@ apt update && apt install vim -y
 
  2.5 Quel est le répertoire pour les fichiers du site Web par défaut ?
 
-2.6	Déplacez-vous dans le répertoire extra et regardez ce qu’il contient. Regarder le contenu des fichiers httpd-default.conf, httpd-manual.conf et httpd-vhosts.conf
+3.	Déplacez-vous dans le répertoire extra et regardez ce qu’il contient. Regarder le contenu des fichiers httpd-default.conf, httpd-manual.conf et httpd-vhosts.conf
 
 ### Modification des configurations du serveur Apache
 
@@ -244,7 +244,7 @@ $ docker container exec -it my-apache-app cat /usr/local/apache2/conf/httpd.conf
 
 # Modifier la commandes pour les autres fichiers.
 ```
-- Copier, dans le répertoire de votre hôte, les fichiers httpd.conf (prenez également la copie de l’original), httpd-vhosts.conf et httpd-ssl.conf(ceux deux derniers sont dans le répertoire /usr/local/apache2/conf).
+- Copier, dans le répertoire de votre hôte, les fichiers httpd.conf (prenez également la copie de l’original), httpd-vhosts.conf et httpd-ssl.conf(ceux deux derniers sont dans le répertoire /usr/local/apache2/conf/extra).
 
 Nous allons utiliser ces fichiers lors des prochains exercices Apache.
 
