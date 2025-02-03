@@ -25,7 +25,7 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |14|16 jan| Révision	 |||
 |15|23 jan|	**Examen partiel** |**Examen 1**|
 |16|28 jan|	Apache, installation, config de base	 |[Ex12](Exercices/Exercice12_Apache.md)|3 fév., 12h30 |
-|17|3 fev|	Apache, modules et SSL	 ||
+|17|3 fev|	Apache, modules et SSL	 |[Ex13](Exercices/Exercice13_Apache_modules-SSL.md)|6 fév., 12h30 |
 |18|6 fev|	Apache, installation d’un site Web et site virtuel	 ||
 |19|11 fev|	Nginx, installation, config de base	 ||
 |20|13 fev|	Nginx, configurations avancées (reverse proxy et load balancer) ||	
