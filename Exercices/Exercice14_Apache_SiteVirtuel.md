@@ -65,8 +65,6 @@ echo "Connexion réussie à MariaDB!";
 
 
 ```yaml
-version: "3.2"
-
 services:
   php:
     build: './php/'
@@ -87,13 +85,14 @@ services:
       - ./monsite/html:/srv/htdocs
   mariadb:
     image: mariadb:latest
-    network: 
-      -backend
-    environnent:
-    - MYSQL_ROOT_PASSWORD=rootpassword
+    networks:
+      - backend
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
 networks:
     frontend:
     backend:
+
 ```
 
 Vous pouvez remarquer qu’il nous manque un volume pour la base de données, car dans cet exemple nous n’avons pas encore de base de données.
