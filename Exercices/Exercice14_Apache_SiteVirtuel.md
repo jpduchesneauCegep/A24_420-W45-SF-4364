@@ -36,9 +36,9 @@ Je vous rappelle la structure de répertoire que nous avons.
                       |--http-ssl.conf
                     |html/
                       |--index.html
-                      |--info.php
-                   |--php/
-                      |--Dockerfile 
+                      |--index.php
+                  |--php/
+                    |--Dockerfile 
 ```
 
 -	Pour pouvoir vérifier php avec MariaDB, nous allons changer le fichier index.php dans le répertoire monsite/html avec le code suivant :
@@ -155,9 +155,9 @@ Nous allons nous concentrer sur les hôtes virtuels «basés sur le nom».
                    /vSites/
                    |--conf/
                    |--site01/
-                |    |--html/
-                |  --site02/
-|                    |--html/
+                     |--html/
+                   |--site02/
+                     |--html/
 ```
 
 - Copier votre fichier index.html créé dans l’exercice 12 dans le répertoire html de site01 et site02. 
