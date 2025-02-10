@@ -27,8 +27,8 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |16|28 jan|	Apache, installation, config de base	 |[Ex12](Exercices/Exercice12_Apache.md)|3 fév., 12h30 |
 |17|3 fev|	Apache, modules et SSL	 |[Ex13](Exercices/Exercice13_Apache_modules-SSL.md)|6 fév., 12h30 |
 |18|6 fev|	Apache, installation d’un site Web et site virtuel	 |[Ex14](Exercices/Exercice14_Apache_SiteVirtuel.md)|11 fév., 8h30 |
-|19|11 fev|	Nginx, installation, config de base	 ||
-|20|13 fev|	Nginx, configurations avancées (reverse proxy et load balancer) ||	
+|19|11 fev|	Nginx, installation, config de base	|Sur Léa| |13 fév., 12h30|
+|20|13 fev|	Nginx, configurations avancées (reverse proxy et load balancer) |Sur Léa|20 fév., 12h30|	
 |21|20 fev| TP3- Travail sur serveur Web (Nginx et Apache, docker-compose)	|TP3|
 |22|27 fev|	TP3	|TP3|	
 |23|3 mar| TP3	|TP3|
