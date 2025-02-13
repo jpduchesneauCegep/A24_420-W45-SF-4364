@@ -284,3 +284,4 @@ Fournir une capture d'écran de Linux montrant :
 * Tutoriels
   - https://adoltech.com/blog/how-to-set-up-nginx-php-fpm-and-mysql-with-docker-compose/
 
+* Merci à Nicolas Plouffe pour la transcription du format Word vers Markdown
