@@ -1,0 +1,23 @@
+services:
+  php:
+    build: './php/'
+    networks:
+      - backend
+    volumes:
+      - ./monsite/html:/srv/htdocs
+  apache:
+    build: './monsite/'
+    depends_on:
+      - php
+    networks:
+      - frontend
+      - backend
+    ports:
+      - 8080:80
+      - 443:443
+    volumes:
+      - ./monsite/html:/scv/htdocs
+networks:
+  frontend:
+  backend:
+

@@ -1,0 +1,33 @@
+services:
+  php:
+    build: './php/'
+    networks:
+      - backend
+    environment:
+      - DB_USER=root
+      - DB_PASSWD=rootpassword
+    volumes:
+      - ./monsite/html:/srv/htdocs
+  apache:
+    build: './monsite/'
+    depends_on:
+      - php
+    networks:
+      - frontend
+      - backend
+    ports:
+      - 8080:80
+      - 443:443
+    volumes:
+      - ./monsite/html:/scv/htdocs
+  mariadb:
+    image: mariadb:latest
+    networks:
+      - backend
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+
+networks:
+  frontend:
+  backend:
+

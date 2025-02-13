@@ -1,0 +1,18 @@
+services:
+  apache:
+    build: './vSites/'
+    networks:
+      - frontend
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./vSites/site01/html:/usr/local/apache2/site01.com/
+      - ./vSites/site02/html:/usr/local/apache2/site02.com/
+      - ./vSites/conf/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./vSites/conf/extra/httpd-vhosts.conf:/usr/local/apache2/conf/extra/httpd-vhosts.conf
+      - ./vSites/log:/usr/local/apache2/logs/
+
+networks:
+  frontend:
+
