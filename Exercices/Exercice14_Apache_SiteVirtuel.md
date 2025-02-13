@@ -171,7 +171,7 @@ Nous allons nous concentrer sur les hôtes virtuels «basés sur le nom».
 -	Modifier le fichier hosts de votre VM pour ajouter www.site01.com avec 127.0.0.1.
 
 Voici à quoi devrait ressembler votre fichier
-	![Exemple](images/fichierHosts.png)
+	![Exemple](../images/fichierHosts.png)
 
 -	Lancer votre système avec docker-compose up. 
 
