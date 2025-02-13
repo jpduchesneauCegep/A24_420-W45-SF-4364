@@ -256,7 +256,7 @@ Fournir une capture d'écran de Linux montrant :
 - Démontrant les deux retours différents du load balancer
 
 
-![capture-ecran](images/RemiseEx16.pgn.png)
+![capture-ecran](../images/RemiseEx16.pgn.png)
 
 
 ## Compétences développées
