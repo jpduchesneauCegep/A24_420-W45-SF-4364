@@ -32,7 +32,7 @@ La première section sera un travail pratique où vous aurez les tâches suivant
 
 Vous allez utiliser Nginx comme équilibreur de charge pour avoir une structure comme celle-ci :
 
-![Infra](images/EFCS.jpg)
+![Infra](../images/EFCS.jpg)
 
 Donc, on se connecte sur `www.tp3.com` qui appelle le proxy Nginx qui, lui, appelle en alternance les serveurs 1 et 2. Chacun des serveurs est relié à un serveur PHP et à un serveur MySQL.
 
