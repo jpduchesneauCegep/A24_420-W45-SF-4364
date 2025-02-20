@@ -5,7 +5,7 @@
 
 - Évaluation : 10 % de la session
 - Type de travail : individuel
-- Date de remise : voir sur Léa
+- Date de remise : voir sur Léa (3 mars)
 - Durée : 9 heures en classe
 - Système d’exploitation : Linux / Docker
 - Environnement : virtuel / Docker
