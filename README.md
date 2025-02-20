@@ -29,10 +29,10 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |18|6 fev|	Apache, installation d’un site Web et site virtuel	 |[Ex14](Exercices/Exercice14_Apache_SiteVirtuel.md)|11 fév., 8h30 |
 |19|11 fev|	Nginx, installation, config de base	|[Ex15](Exercices/Exercice15_nginx.md)|13 fév., 12h30|
 |20|13 fev|	Nginx, configurations avancées (reverse proxy et load balancer) |[Ex16](Exercices/Exercice16_NginX-equilibreur-repartiteur-de-charge.md)|20 fév., 12h30|	
-|21|20 fev| TP3- Travail sur serveur Web (Nginx et Apache, docker-compose)	|[TP3](TPs/TravailPratique03.md)||
+|21|20 fev| TP3- Mise en place d’un service Web (Docker Compose)|[TP3](TPs/TravailPratique03.md)||
 |22|27 fev|	TP3	|[TP3](TPs/TravailPratique03.md)|	|
 |23|3 mar| TP3	|[TP3](TPs/TravailPratique03.md)|3 mars |
-|24|6 mar|Automatisation et Ansible||
+|24|6 mar| Automatisation et Ansible||
 |25|13 mar|Automatisation mode AdHoc||
 |26|17 mar|	Automatisation PlayBook	||
 |27|20 mar|	Automatisation – TP4 automatisation	|TP4|||
