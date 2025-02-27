@@ -48,8 +48,8 @@ Je vous rappelle la structure de répertoire que nous avons.
 <h4>Tentative de connexion MariaDB depuis PHP...</h4>
 <?php 
 $host = 'mariadb';
-$user = 'root';
-$pass = 'rootpassword';
+$user = $_ENV["DB_USER"];
+$pass = $_ENV["DB_PASSWD"];
 $conn = new mysqli($host, $user, $pass);
 
 if ($conn->connect_error) {
@@ -70,6 +70,9 @@ services:
     build: './php/'
     networks:
       - backend
+    environment:
+      - DB_USER=root
+      - DB_PASSWD=rootpassword
     volumes:
       - ./monsite/html:/srv/htdocs
   apache:
