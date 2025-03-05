@@ -32,7 +32,7 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |21|20 fev| TP3- Mise en place d’un service Web (Docker Compose)|[TP3](TPs/TravailPratique03.md)||
 |22|27 fev|	TP3	|[TP3](TPs/TravailPratique03.md)|	|
 |23|3 mar| TP3	|[TP3](TPs/TravailPratique03.md)|3 mars fin de journée|
-|24|6 mar| Automatisation et Ansible||
+|24|6 mar| Automatisation et Ansible|[Ex17](Exercices/Exercice17_AnsibleMiseEnPlace.md)|
 |25|13 mar|Automatisation mode AdHoc||
 |26|17 mar|	Automatisation PlayBook	||
 |27|20 mar|	Automatisation – TP4 automatisation	|TP4|||
