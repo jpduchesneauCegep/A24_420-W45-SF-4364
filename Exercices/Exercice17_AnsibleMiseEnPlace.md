@@ -349,7 +349,7 @@ ansible -m command -a id all
 
 Exemple de remise :
 
-![Exemple de remise.](images/ExempleRemiseExer18.png)
+![Exemple de remise.](../images/ExempleRemiseExer18.png)
 
 
 ## Référence :
