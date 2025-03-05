@@ -71,7 +71,7 @@ Si vous ne passez pas de paramètres à la commande, ssh-keygen produira une cl�
 
 Ci-dessous un exemple de création de la clé sans paramètre :
 
-![Image](images/Fig1_SSH.png)
+![Image](../images/Fig1_SSH.png)
 
 Pour générer votre clé ssh :
 
@@ -191,7 +191,7 @@ ansible --version
 -
 Voici le résultat attendu : 
 
-![Ansible version](images/AnsibleVersion2.png)
+![Ansible version](../images/AnsibleVersion2.png)
 
 
 ## Section 3 : Première utilisation 
@@ -266,12 +266,12 @@ ssh-copy-id -i ~/.ssh/id_ed25519 deploy@10.100.2.121
 
 Ci-dessous un exemple d’échange de clé avec l’utilisateur de la machine rec-apache-1 :
 
-![Image](images/CopySshKey.png)
+![Image](../images/CopySshKey.png)
 
 
 La clé est maintenant en place. Comme le message vous y invite, il est maintenant possible de se connecter avec la commande <code>ssh deploy@srv-apache-1</code> pour s’assurer que l’échange de clé s’est bien passé :
 
-![Image](images/verificationCopySshKey.png)
+![Image](../images/verificationCopySshKey.png)
 
 L’échange de clé est effectué, il est maintenant possible de réaliser les premiers tests avec Ansible. Mais avant tous il faut renseigner l'inventaire d'Ansible sur la machine de gestion.
 
@@ -323,7 +323,7 @@ ansible -m command -a id all
 ```
 qui va nous renvoyer les informations suivantes :
 
-![images](images/Ansiblecmd2.PNG)
+![images](../images/Ansiblecmd2.PNG)
 
 Vous pouvez essayer les commandes suivantes :
 
