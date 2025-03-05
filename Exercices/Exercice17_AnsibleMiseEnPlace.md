@@ -312,7 +312,7 @@ ansible -m ping Web
 
 Si la communication se passe bien, vous devriez obtenir le message suivant :
 
-![images](images/Ansiblecmd1.PNG)
+![images](../images/Ansiblecmd1.PNG)
 
 Vous pourriez utiliser un fichier d'inventaire différent avec le paramètre <code>-i</code> : par exemple <code>-i srv-apache-1.inv</code>.
 
