@@ -169,7 +169,7 @@ vim ~/ansible.cfg
 #contenu du fichier :
 [defaults]
 inventory = inventaire
-remote_user //= deploy
+remote_user = deploy
 retry_files_enabled = False
 log_path = ./.traces_d_ansible
 ```
