@@ -248,7 +248,7 @@ Utiliser les informations suivantes pour créer la seconde machine :
 ```bash
 sudo ip add flush ens160
 sudo dhclient -v ens160
-ip -4 add
+ip -4 
 ```
 
 ## Section 5 : Échange de clé par mot de passe
