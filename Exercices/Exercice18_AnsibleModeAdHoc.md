@@ -94,7 +94,7 @@ ansible all -m ping
 
 Sortie : 
 
-![Module ping](images/ping.png)
+![Module ping](../images/ping.png)
 
 
 Maintenant, utilisons le module  [Copy](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html). On va créer le fichier sur srv-apache-1 avec un contenu. Mais, seulement sur la machine srv-apache-1 qui est dans le groupe Web :
@@ -105,7 +105,7 @@ ansible Web -m copy -a "dest=/home/deploy/toto.txt content='Exercice Ansible ad 
 
 Sortie :
 
-![Module copy](images/copy.png)
+![Module copy](../images/copy.png)
 
 ### Sur votre machine cliente (srv-apache-1)
 
@@ -117,7 +117,7 @@ ls
 cat toto.txt
 ```
 
-![Résultat](images/resultat.png)
+![Résultat](../images/resultat.png)
 
 ### Sur votre machine de contrôle
 
@@ -127,7 +127,7 @@ Exécutez à nouveau la commande :
 ansible Web -m copy -a "dest=/home/deploy/toto.txt content='Exercice Ansible ad hoc'"
 ```
 
-![Résultat](images/resultat2.png)
+![Résultat](../images/resultat2.png)
 
 **Attention :** remarquez les changements (ou non-changement) au niveau `changed`: il indique false.
 
@@ -253,7 +253,7 @@ ansible all -m copy -a "dest=/home/deploy/toto.txt content='Exercice Ansible ad 
 
 Voici la sortie :
 
-![Résultat](images/resultat3.png)
+![Résultat](../images/resultat3.png)
 
 **Attention : prenez une capture d'écran pour votre remise.**
 
