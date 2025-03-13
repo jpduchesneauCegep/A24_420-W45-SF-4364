@@ -166,7 +166,7 @@ ansible-playbook deploy.yaml
 
 Il devrait avoir une erreur d'absence du module Docker (l'erreur peut être différente):
 
-![Absence module Docker](images/ErrModDocker.png)
+![Absence module Docker](../images/ErrModDocker.png)
 
 On va ajouter le module manquant directement dans le playbook, c'est sa raison d'être après tout.
 
@@ -258,16 +258,16 @@ ansible-playbook deploy.yaml
 
 Résultat attendu : 
 
-![Le playbook fonctionne](images/fonctionne.png)
+![Le playbook fonctionne](../images/fonctionne.png)
 
 Vérifions dans le navigateur :
 
-![La page est là!](images/ItWork.jpg)
+![La page est là!](../images/ItWork.jpg)
 
 
 Et aussi sur la machine srv-apache-1 : 
 
-![Cmd Docker ps](images/dockerps.jpg)
+![Cmd Docker ps](../images/dockerps.jpg)
 
 
 ### 7- Sortir le mot de passe du playbook
@@ -417,7 +417,7 @@ ansible-playbook deploy.yaml --ask-vault-pass
 
 Le mot de passe pour ouvrir le fichier <code>secret-variables.yaml</code> est demandé.
 
-![L'exécution avec Vault.](images/Vault.png)
+![L'exécution avec Vault.](../images/Vault.png)
 
 Maintenant, faites un _commit_ (ne pas oublier d'ajouter les nouveaux fichiers) de votre projet et _poussez_ votre projet dans votre dépôt github.
 
@@ -449,7 +449,7 @@ ansible-playbook deploy.yaml --ask-vaut-pass
 
 Exemple de remise :
 
-![Exemple de remise.](images/ExempleRemiseExer20.png)
+![Exemple de remise.](../images/ExempleRemiseExer20.png)
 
 ## Références
 [Documentation ansible pour group_vars](https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html#organizing-host-and-group-variables)
