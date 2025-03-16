@@ -48,7 +48,7 @@ Ici nous aurons les composants suivants :
 
 Vous allez utiliser une structure comme celle-ci :
 
-[Schema du TP4](./images/Tp4-2.png)
+[Schema du TP4](../images/Tp4-2.png)
 
 
 ## Découper les tâches en étapes plus petites 
