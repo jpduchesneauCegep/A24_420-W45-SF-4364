@@ -172,6 +172,7 @@ inventory = inventaire
 remote_user = deploy
 retry_files_enabled = False
 log_path = ./.traces_d_ansible
+interpreter_python = auto_legacy_silent
 ```
 
 Ansible recherche un fichier de configuration dans cet ordre :
