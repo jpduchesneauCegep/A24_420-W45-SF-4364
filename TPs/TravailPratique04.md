@@ -97,6 +97,7 @@ Vous devez fournir (déposé sur GitHub) :
     - Tous les fichiers de votre travail.
     - Vous devez m'ajouter à votre dépôt.
     - Vous devez utiliser le format Markdown (`.md`).
+    - Indiquer l'adresse de votre serveur distant de l'infrastructure vSphere (10.100.2.X), je dois pouvoir vérifier la présence de la page index.php.
     - Vous devez donner vos sites de références.
 
 
