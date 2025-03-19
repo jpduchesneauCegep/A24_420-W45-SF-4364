@@ -27,7 +27,7 @@ L'automatisation du déploiement et de la configuration des infrastructures est 
 - Une VM distante dans l'infrastructure virtuelle vSphere du Cégep.
 - Accès SSH sans mot de passe à la VM distante depuis la machine de gestion.
 
-Description du projet
+### Description du projet
 
 Vous allez déployer une application web simple comprenant les composants suivants :
 
@@ -35,12 +35,36 @@ Vous allez déployer une application web simple comprenant les composants suivan
    - PHP 8.1 (FPM) : Interprète PHP pour exécuter le code de l'application.
    - MySQL 8.0 : Serveur de base de données pour stocker les données de l'application.
 
+
 L'ensemble de ces composants sera déployé en tant que conteneurs Docker sur votre VM distante, orchestrés par Docker Compose. Ansible sera utilisé pour automatiser l'installation de Docker, Docker Compose et les dépendances nécessaires sur la VM.
-    - Python
-
-- Les conteneurs doivent utiliser des noms de domaine internes (par exemple, php.backend et mysql.backend).
 
 
+### Étapes détaillées
+
+ 1-  Configuration de l'environnement Ansible :
+       - Créer un inventaire Ansible pour définir votre VM distante.
+       - Vérifier la connectivité SSH sans mot de passe.
+ 2-   Création du playbook Ansible :
+       - Installer les dépendances Python nécessaires pour le module Docker d'Ansible.
+       - Installer Docker et Docker Compose sur la VM distante.
+        - Démarrer et activer le service Docker.
+        - Création d'un réseau docker tp4 pour les conteneurs.
+  3-  Déploiement de l'application avec Docker Compose :
+      -  Créer un fichier docker-compose.yml définissant les services Nginx, PHP-FPM et MySQL.
+      -  Configurer les variables d'environnement pour les conteneurs (par exemple, les informations de connexion à la base de données).
+      -  Utiliser des volumes Docker pour persister les données de la base de données et les fichiers de l'application.
+      -  Configurer des noms de domaine interne au réseau docker pour les conteneurs.
+    Configuration des services web :
+      -  Créer un fichier de configuration Nginx pour diriger les requêtes vers le conteneur PHP-FPM.
+      -  Développer une page index.php simple pour tester la connexion à la base de données.
+      -  Placer le fichier index.php dans le dossier html qui sera monté en volume dans les conteneurs de nginx et php.
+    Exécution du playbook Ansible :
+       - Exécuter le playbook Ansible pour déployer l'application sur la VM distante.
+       - Vérifier que les conteneurs sont en cours d'exécution et que l'application est accessible via un navigateur web.
+    Tests et validation :
+       - Vérifier que la page index.php affiche les informations de connexion à la base de données.
+       - Tester la connectivité entre les conteneurs.
+       - Vérifier les journaux des conteneurs pour identifier les éventuelles erreurs.
 
 
 ### Description de l'infrastructure
@@ -50,27 +74,6 @@ Vous allez utiliser une structure comme celle-ci :
 [Schema du TP4](../images/Tp4-2.png)
 
 
-## Découper les tâches en étapes plus petites 
-
-1. Configuration de l'inventaire Ansible
-
-2. Création du playbook Ansible
-    - Avec les dépendance Python pour Docker
-    - Installer le module Python docker
-    - Démarrer et activer le service Docker
-    - Créer un réseau Docker TP4
-    - Déployer le conteneur MySQL
-    - Déployer le conteneur PHP-FPM
-    - Déployer le conteneur Nginx
-3. Configuration des fichiers Nginx et PHP (index.php est fournie sur le dépôt)
-4. Exécutez le playbook depuis votre machine de gestion
-
-## Explications
-
-- Le playbook installe les dépendances nécessaires (Docker, Python).
-- Il crée un réseau Docker pour permettre la communication entre les conteneurs.
-- Il déploie les conteneurs MySQL, PHP-FPM et Nginx avec les configurations appropriées.
-- Le fichier index.php dans le dossier html, permet de vérifier le bon fonctionnement de php et nginx.
 
 ## Points importants
 
@@ -81,6 +84,19 @@ Vous allez utiliser une structure comme celle-ci :
 Cet exercice vous donne une base solide pour automatiser le déploiement de conteneurs avec Ansible. 
 
 ## Remise
+
+1-Sur LÉa : 
+    - Un fichier text avec l'URL du dépôt GitHub et l'dresse IP de la VM distante.
+
+2- Dépôt GitHub privé :
+    - Code source complet du projet (playbook Ansible, fichier docker-compose.yml, fichiers de configuration Nginx et PHP).
+    - Fichier README.md décrivant le projet, les instructions d'installation et d'utilisation.
+
+
+
+Documentation :
+
+    Lister les sites de références utilisées.
 
 Vous devez fournir (déposé sur Léa) :
 
