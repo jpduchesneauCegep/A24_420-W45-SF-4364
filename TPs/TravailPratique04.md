@@ -83,6 +83,7 @@ Vous allez utiliser une structure comme celle-ci :
 ## Points importants
 
  - Utiliser des variables Ansible pour rendre votre code plus modulaire et réutilisable.
+ - Utiliser ansible-vault pour l'encryption des informations sensibles.
  -   Documenter votre code avec des commentaires clairs et concis.
  -   Tester votre code régulièrement pour identifier et corriger les erreurs.
  -   Utiliser le système de contrôle de version (Git) pour gérer votre code.
