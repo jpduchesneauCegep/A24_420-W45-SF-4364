@@ -56,6 +56,7 @@ L'ensemble de ces composants sera déployé en tant que conteneurs Docker sur vo
    -  Configurer les variables d'environnement pour les conteneurs (par exemple, les informations de connexion à la base de données).
    -  Utiliser des volumes Docker pour persister les données de la base de données et les fichiers de l'application.
    -  Configurer des noms de domaine interne au réseau docker pour les conteneurs.
+     
   4-  Configuration des services web :
     -  Créer un fichier de configuration Nginx pour diriger les requêtes vers le conteneur PHP-FPM.
     -  Développer une page index.php simple pour tester la connexion à la base de données.
