@@ -51,25 +51,25 @@ L'ensemble de ces composants sera déployé en tant que conteneurs Docker sur vo
    - Démarrer et activer le service Docker.
    - Création d'un réseau docker tp4 pour les conteneurs.
  
-  3- Déploiement de l'application avec Docker Compose :
+ 3- Déploiement de l'application avec Docker Compose :
    -  Créer un fichier docker-compose.yml définissant les services Nginx, PHP-FPM et MySQL.
    -  Configurer les variables d'environnement pour les conteneurs (par exemple, les informations de connexion à la base de données).
    -  Utiliser des volumes Docker pour persister les données de la base de données et les fichiers de l'application.
    -  Configurer des noms de domaine interne au réseau docker pour les conteneurs.
      
-  4-  Configuration des services web :
-    -  Créer un fichier de configuration Nginx pour diriger les requêtes vers le conteneur PHP-FPM.
-    -  Développer une page index.php simple pour tester la connexion à la base de données.
-    -  Placer le fichier index.php dans le dossier html qui sera monté en volume dans les conteneurs de nginx et php.
+ 4-  Configuration des services web :
+   -  Créer un fichier de configuration Nginx pour diriger les requêtes vers le conteneur PHP-FPM.
+   -  Développer une page index.php simple pour tester la connexion à la base de données.
+   -  Placer le fichier index.php dans le dossier html qui sera monté en volume dans les conteneurs de nginx et php.
       
-   5- Exécution du playbook Ansible :
-     - Exécuter le playbook Ansible pour déployer l'application sur la VM distante.
-     - Vérifier que les conteneurs sont en cours d'exécution et que l'application est accessible via un navigateur web.
+ 5- Exécution du playbook Ansible :
+   - Exécuter le playbook Ansible pour déployer l'application sur la VM distante.
+   - Vérifier que les conteneurs sont en cours d'exécution et que l'application est accessible via un navigateur web.
      
-   6- Tests et validation :
-     - Vérifier que la page index.php affiche les informations de connexion à la base de données.
-     - Tester la connectivité entre les conteneurs.
-     - Vérifier les journaux des conteneurs pour identifier les éventuelles erreurs.
+ 6- Tests et validation :
+  - Vérifier que la page index.php affiche les informations de connexion à la base de données.
+  - Tester la connectivité entre les conteneurs.
+  - Vérifier les journaux des conteneurs pour identifier les éventuelles erreurs.
 
 
 ### Description de l'infrastructure
