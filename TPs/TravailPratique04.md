@@ -41,21 +41,21 @@ L'ensemble de ces composants sera déployé en tant que conteneurs Docker sur vo
 
 ### Étapes détaillées
 
- 1-Configuration de l'environnement Ansible :
+ 1- Configuration de l'environnement Ansible :
   - Créer un inventaire Ansible pour définir votre VM distante.
   - Vérifier la connectivité SSH sans mot de passe.
  
- 2-   Création du playbook Ansible :
-       - Installer les dépendances Python nécessaires pour le module Docker d'Ansible.
-       - Installer Docker et Docker Compose sur la VM distante.
-        - Démarrer et activer le service Docker.
-        - Création d'un réseau docker tp4 pour les conteneurs.
+ 2- Création du playbook Ansible :
+   - Installer les dépendances Python nécessaires pour le module Docker d'Ansible.
+   - Installer Docker et Docker Compose sur la VM distante.
+   - Démarrer et activer le service Docker.
+   - Création d'un réseau docker tp4 pour les conteneurs.
  
-  3-  Déploiement de l'application avec Docker Compose :
-      -  Créer un fichier docker-compose.yml définissant les services Nginx, PHP-FPM et MySQL.
-      -  Configurer les variables d'environnement pour les conteneurs (par exemple, les informations de connexion à la base de données).
-      -  Utiliser des volumes Docker pour persister les données de la base de données et les fichiers de l'application.
-      -  Configurer des noms de domaine interne au réseau docker pour les conteneurs.
+  3- Déploiement de l'application avec Docker Compose :
+   -  Créer un fichier docker-compose.yml définissant les services Nginx, PHP-FPM et MySQL.
+   -  Configurer les variables d'environnement pour les conteneurs (par exemple, les informations de connexion à la base de données).
+   -  Utiliser des volumes Docker pour persister les données de la base de données et les fichiers de l'application.
+   -  Configurer des noms de domaine interne au réseau docker pour les conteneurs.
   4-  Configuration des services web :
       -  Créer un fichier de configuration Nginx pour diriger les requêtes vers le conteneur PHP-FPM.
       -  Développer une page index.php simple pour tester la connexion à la base de données.
