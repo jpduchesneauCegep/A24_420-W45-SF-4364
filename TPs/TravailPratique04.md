@@ -82,11 +82,11 @@ Vous allez utiliser une structure comme celle-ci :
 
 ## Points importants
 
-- Assurez-vous que les ports 3306 (MySQL) et 80 (Nginx) sont ouverts sur votre VM distante.
- - Le dossier html est monté en volume dans le conteneur php-fpm et nginx. Cela signifie que les modifications apportées aux fichiers dans ce dossier seront reflétées dans les conteneurs.
- -  Le fichier nginx.conf est monté en volume dans le conteneur nginx. Cela signifie que les modifications apportées à ce fichier seront reflétées dans le conteneur.
+ - Utiliser des variables Ansible pour rendre votre code plus modulaire et réutilisable.
+ -   Documenter votre code avec des commentaires clairs et concis.
+ -   Tester votre code régulièrement pour identifier et corriger les erreurs.
+ -   Utiliser le système de contrôle de version (Git) pour gérer votre code.
 
-Cet exercice vous donne une base solide pour automatiser le déploiement de conteneurs avec Ansible. 
 
 ## Remise
 
@@ -97,28 +97,8 @@ Cet exercice vous donne une base solide pour automatiser le déploiement de cont
     - Code source complet du projet (playbook Ansible, fichier docker-compose.yml, fichiers de configuration Nginx et PHP).
     - Fichier README.md décrivant le projet, les instructions d'installation et d'utilisation.
 
-
-
-Documentation :
-
-    Lister les sites de références utilisées.
-
-Vous devez fournir (déposé sur Léa) :
-
-- L'adresse de votre dépôt GitHub dans un fichier texte.
-
-Vous devez fournir (déposé sur GitHub) :
-
-- Un dépôt privé avec votre code source du TP4.
-    - Un fichier `README.md` qui résume les informations sur le dépôt.
-        - Nom du projet
-        - Date
-        - Description du projet
-    - Tous les fichiers de votre travail.
-    - Vous devez m'ajouter à votre dépôt.
-    - Vous devez utiliser le format Markdown (`.md`).
-    - Indiquer l'adresse de votre serveur distant de l'infrastructure vSphere (10.100.2.X), je dois pouvoir vérifier la présence de la page index.php.
-    - Vous devez donner vos sites de références.
+3- Documentation :
+  -  Lister les sites de références utilisées.
 
 
 
@@ -131,10 +111,13 @@ Vous devez fournir (déposé sur GitHub) :
 | Utilisation appropriée des variables Ansible |    20 |  
 | Page Web d'identification fonctionnelle et informative|20 |
 |Fichiers de configuration clair et bien documenté |    30 |          |
-|
 | **Total**             | **100** |           |
 
 ## Références :
 
-[Documentation de Community.Docker](https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#description)
 
+Documentation officielle d'Ansible : docs.ansible.com
+[Documentation de Community.Docker](https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#description)
+Documentation officielle de Docker : docs.docker.com
+Documentation de Docker compose.
+Toute autre référence utile pour le développement du projet.
