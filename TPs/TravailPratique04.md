@@ -117,7 +117,7 @@ Vous allez utiliser une structure comme celle-ci :
 
 
 - [Documentation officielle d'Ansible](docs.ansible.com)
-- [Documentation de Community.Docker](https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#description)
+- [Documentation de Ansible Community.Docker](https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#description)
 - [Documentation officielle de Docker](docs.docker.com)
 - Documentation de Docker compose.
 Toute autre référence utile pour le développement du projet.
