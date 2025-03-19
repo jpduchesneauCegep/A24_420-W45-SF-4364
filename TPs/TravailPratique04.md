@@ -1,7 +1,5 @@
 # Travail pratique 4
-## Utilisation d'Ansible et Docker compose
-### Installation d'un environnement de tests 
-
+## Orchestration de Conteneurs avec Ansible et Docker Compose
 
 ### Informations
 
@@ -12,31 +10,32 @@
 - Système d’exploitation : Linux / Docker
 - Environnement : virtuel / Docker
 
+### Mise en contexte
+
+L'automatisation du déploiement et de la configuration des infrastructures est une compétence cruciale en administration système. Dans ce travail pratique, vous allez mettre en œuvre un environnement de test complet en utilisant Ansible pour automatiser l'installation de Docker et Docker Compose, puis déployer une application web à trois niveaux avec Docker Compose.
+
 ### Objectifs
 
-- Appliquer des procédures d’installation des services Internet conformément aux procédures et spécifications techniques.
-- Configurer des services Internet selon la documentation ou le plan de conception (ex. : architecture réseau, technologique, etc.).
-- Tester adéquatement le fonctionnement des services Internet.
-- Activer des services Internet selon les procédures recommandées.
-- Appliquer des correctifs et des mises à jour sur les systèmes d’exploitation serveur.
+- Maîtriser l'utilisation d'Ansible pour l'automatisation de tâches d'administration système.
+- Configurer et déployer des applications multi-conteneurs avec Docker Compose.
+- Comprendre les principes de base de l'orchestration de conteneurs.
+- Appliquer les meilleures pratiques en matière de configuration de services web (Nginx, PHP, MySQL).
+- Développer des compétences en résolution de problèmes et en débogage.
 
 ### Prérequis 
 - Une machine de gestion avec Ansible installé.
-- Une VM distante
+- Une VM distante dans l'infrastructure virtuelle vSphere du Cégep.
 - Accès SSH sans mot de passe à la VM distante depuis la machine de gestion.
 
-### Description
- Dans cet exercice, nous allons mettre en place un environnement de tests à l'aide d'Ansible. Pour rappel, c'est l’environnement de simulation. Généralement, l’environnement
-de simulation est identique à celui de production, si bien que le matériel
-et les logiciels ne présentent pas de grandes différences lors de l’utilisation de l’application.
+Description du projet
 
-Ici nous aurons les composants suivants :  
-- Un serveur utilisé pour rouler les conteneurs suivants : 
-    - Nginx 1.21 : serveur Web  
-    - PHP 8.1: langage de programmation.
-    - MySQL 8.0 : serveur de bases de données  
-- L'ensemble sera déployer depuis votre station de gestion vers votre serveur sur lequel vous installerez avec Ansible les pré-requis :
-    - Docker et Docker compose
+Vous allez déployer une application web simple comprenant les composants suivants :
+
+   - Nginx 1.21 : Serveur web pour gérer les requêtes HTTP.
+   - PHP 8.1 (FPM) : Interprète PHP pour exécuter le code de l'application.
+   - MySQL 8.0 : Serveur de base de données pour stocker les données de l'application.
+
+L'ensemble de ces composants sera déployé en tant que conteneurs Docker sur votre VM distante, orchestrés par Docker Compose. Ansible sera utilisé pour automatiser l'installation de Docker, Docker Compose et les dépendances nécessaires sur la VM.
     - Python
 
 - Les conteneurs doivent utiliser des noms de domaine internes (par exemple, php.backend et mysql.backend).
