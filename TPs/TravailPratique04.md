@@ -25,6 +25,7 @@ L'automatisation du déploiement et de la configuration des infrastructures est 
 ### Prérequis 
 - Une machine de gestion avec Ansible installé.
 - Une VM distante dans l'infrastructure virtuelle vSphere du Cégep.
+  (VM_DFC-A24_4364_420W45_ISS_JPD-TP4)
 - Accès SSH sans mot de passe à la VM distante depuis la machine de gestion.
 
 ### Description du projet
