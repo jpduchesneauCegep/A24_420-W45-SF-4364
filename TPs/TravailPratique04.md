@@ -93,7 +93,7 @@ Vous allez utiliser une structure comme celle-ci :
 ## Remise
 
 1-Sur LÉa : 
-    - Un fichier text avec l'URL du dépôt GitHub et l'dresse IP de la VM distante.
+  - Un fichier text avec l'URL du dépôt GitHub et l'dresse IP de la VM distante.
 
 2- Dépôt GitHub privé :
    - Code source complet du projet (playbook Ansible, fichier docker-compose.yml, fichiers de configuration Nginx et PHP).
