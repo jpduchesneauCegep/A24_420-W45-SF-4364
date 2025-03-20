@@ -60,7 +60,7 @@ L'ensemble de ces composants sera déployé en tant que conteneurs Docker sur vo
      
  4-  Configuration des services web :
    -  Créer un fichier de configuration Nginx pour diriger les requêtes vers le conteneur PHP-FPM.
-   -  Développer une page index.php simple pour tester la connexion à la base de données.
+   -  Utiliser la page [index.php](index.php) pour tester la connexion à la base de données.
    -  Placer le fichier index.php dans le dossier html qui sera monté en volume dans les conteneurs de nginx et php.
       
  5- Exécution du playbook Ansible :
