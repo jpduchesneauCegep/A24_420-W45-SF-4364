@@ -35,8 +35,8 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |24|6 mar| Automatisation et Ansible|[Ex17](Exercices/Exercice17_AnsibleMiseEnPlace.md)|13 mars 12h30|
 |25|13 mar|Automatisation mode AdHoc|[Ex18](Exercices/Exercice18_AnsibleModeAdHoc.md)|20 mars 12h30|
 |26|20 mar|	Automatisation PlayBook	|[Ex19](Exercices/Exercice19_AnsiblePlaybook.md)|24 mars 12h30|
-|27|24 mar|	Automatisation – TP4 automatisation	|[TP4](TPs/TravailPratique04.md)||
-|28|25 mar|	Automatisation – TP4 automatisation	|[TP4](TPs/TravailPratique04.md)|26 mars fin journée|
+|27|24 mar|	 TP4 automatisation	|[TP4](TPs/TravailPratique04.md)||
+|28|25 mar|	 TP4 automatisation	|[TP4](TPs/TravailPratique04.md)|26 mars fin journée|
 |29|27 mar|	**Évaluation finale à caractère synthèse**|Examen final|||
 |30|3 avr|	**Évaluation finale à caractère synthèse** | Examen final||
 
