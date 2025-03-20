@@ -67,7 +67,7 @@ L'ensemble de ces composants sera déployé en tant que conteneurs Docker sur vo
    - Vérifier que les conteneurs sont en cours d'exécution et que l'application est accessible via un navigateur web.
      
  6- Tests et validation :
-  - Vérifier que la page index.php affiche les informations de connexion à la base de données.
+  - Vérifier que la page [index.php](index.php) affiche les informations de connexion à la base de données.
   - Tester la connectivité entre les conteneurs.
   - Vérifier les journaux des conteneurs pour identifier les éventuelles erreurs.
 
@@ -96,6 +96,7 @@ Vous allez utiliser une structure comme celle-ci :
 
 2- Dépôt GitHub privé :
     - Code source complet du projet (playbook Ansible, fichier docker-compose.yml, fichiers de configuration Nginx et PHP).
+    
     - Fichier README.md décrivant le projet, les instructions d'installation et d'utilisation.
 
 3- Documentation :
