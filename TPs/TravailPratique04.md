@@ -76,7 +76,7 @@ L'ensemble de ces composants sera déployé en tant que conteneurs Docker sur vo
 
 Vous allez utiliser une structure comme celle-ci :
 
-[Schema du TP4](../images/Tp4-2.png)
+[Schema du TP4](../images/tp4-2.png)
 
 
 
