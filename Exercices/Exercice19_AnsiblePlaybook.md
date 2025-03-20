@@ -140,7 +140,7 @@ Pour avoir l'outil de vérification de la syntaxe, nous aurons besoin d'ansible-
 
 ```bash
 sudo apt update && sudo apt install python3-pip -y
-sudo pip install ansible-lint
+sudo apt install ansible-lint
 # Finalement, nous pouvons vérifier le fichier: 
 ansible-lint deploy.yaml
 ```
@@ -235,9 +235,9 @@ Nous allons y aller pour la façon la plus  simple bien sure, la moins sécurita
   become: true
   vars:
     ansible_sudo_pass: MotDePasse # Mettre votre mot de passe de deploy
-  pre_task:
+  pre_tasks:
    - name: Install Docker
-      apt:
+     apt:
         name: docker.io
         state: present
         update_cache: yes
@@ -394,9 +394,9 @@ Modifiez le fichier <code>deploy.yaml</code> pour ajouter le fichier contenant l
   become: true
   vars_files:
     - ./vars/secret-variables.yaml
-  pre_task:
+  pre_tasks:
    - name: Install Docker
-      apt:
+     apt:
         name: docker.io
         state: present
         update_cache: yes
