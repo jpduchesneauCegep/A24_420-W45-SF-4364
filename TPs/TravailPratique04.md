@@ -110,8 +110,8 @@ Vous allez utiliser une structure comme celle-ci :
 | Item                  | Points | Résultat |
 | --------------------- | -----: | :-------: |
 | Configuration correcte des réseaux Docker|    10 |           |
-| Utilisation appropriée des variables Ansible |    20 |  
-| Page Web d'identification fonctionnelle et informative|20 |
+| Utilisation appropriée des variables Ansible et Docker compose|    20 |  
+| Page Web d'identification fonctionnelle |20 |
 |Fichiers de configuration clair et bien documenté |    50 |          |
 | **Total**             | **100** |           |
 
