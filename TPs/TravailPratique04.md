@@ -104,6 +104,14 @@ Vous allez utiliser une structure comme celle-ci :
 
 
 
+
+
+
+
+## Exemple de fonctionnement :
+
+[Image TP4](../images/Tp4_fin.png)
+
 ## Évaluation :
 
 
