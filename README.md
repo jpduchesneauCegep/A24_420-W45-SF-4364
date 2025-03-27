@@ -37,8 +37,8 @@ Ce calendrier est donné à titre indicatif et peut être modifié en fonction d
 |26|20 mar|	Automatisation PlayBook	|[Ex19](Exercices/Exercice19_AnsiblePlaybook.md)|24 mars 12h30|
 |27|24 mar|	Automatisation – TP4 automatisation	|[TP4](TPs/TravailPratique04.md)||
 |28|25 mar|	Automatisation – TP4 automatisation	|[TP4](TPs/TravailPratique04.md)|26 mars fin journée|
-|29|27 mar|	**Évaluation finale à caractère synthèse**|Examen final|||
-|30|3 avr|	**Évaluation finale à caractère synthèse** | Examen final||
+|29|27 mar|	**Évaluation finale à caractère synthèse**|[Examen final](EFCS/EFCSA2024_4364.md)|||
+|30|3 avr|	**Évaluation finale à caractère synthèse** | [Examen final](EFCS/EFCSA2024_4364.md)|3 avril 15h30|
 
 ### Récapitulatif de la pondération des évaluations sommatives
 
